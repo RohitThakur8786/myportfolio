@@ -28,7 +28,7 @@ const Header = () => {
         </div>
         <ul>
           {navLinks.map((link,id)=>(
-            <Link href={`${link.slug}`}>
+            <Link key={link} href={`${link.slug}`}>
                 <li>{link.title}</li>
             </Link>   
           ))}
