@@ -1,0 +1,36 @@
+.footercontainer{
+  display: flex;
+  flex-direction: column;
+}
+.copyrightsection{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.iconcontainer{
+  display: flex;
+  gap: 1rem;
+}
+.footericon{
+  width: 25px;
+  height: 25px;
+  &:hover{
+    scale: 1.2;
+  }
+}
+.footerbar{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.footermail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  @media screen and (max-width: 680px) {
+      display: none;
+  }
+}
